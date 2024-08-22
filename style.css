@@ -1,0 +1,107 @@
+body
+{
+    background-color:#040404;
+    font-family: "Edu VIC WA NT Beginner";
+}
+h1 
+{
+    color: bisque;
+    text-align: center;
+    margin: 50px auto;
+}
+.container
+{
+    background-color: #040404;
+    border-radius: 20px;
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 400px;
+    height: 400px;
+}
+.container:hover
+{
+    box-shadow: 2px 2px 8px bisque;
+}
+.keys 
+{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 10px;
+    padding: 10px;
+    margin: auto;
+}
+.button 
+{
+    background-color: black;
+    height: 60px;
+    padding: 5px;
+    border-radius: 10px;
+    font-size: 2rem;
+    color:burlywood;
+    border: none;
+}
+.button:hover
+{
+    background-color: bisque;
+}
+.operator
+{
+    border-radius: 10px;
+    color: burlywood;
+    background-color: black;
+    font-size: 2rem;
+    text-align: center;
+    border: none;
+}
+.operator:hover
+{
+    background-color: bisque;
+}
+.clear 
+{
+    background-color: black;
+    border:none;
+    color:burlywood;
+    width: 80px;
+    margin-left: 80px;
+    border-radius: 10px;
+    height: 60px;
+    padding: 5px;
+    font-size: 1.5rem;
+}
+
+.clear:hover
+{
+    background-color: bisque;
+}
+
+.equal-sign 
+{
+    background-color: black;
+    border-color: #25a8e0;
+    color:burlywood;
+    font-size: 1.5rem;
+}
+
+.equal-sign:hover 
+{
+    background-color: bisque;
+}
+
+.screen {
+
+    background-color:bisque ;
+    justify-content: left;
+    width: 60%;
+    height: 40%;
+    cursor: default;
+    padding: 10px;
+    padding-left: 50%;
+    margin: auto;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    font-size: 1.5rem;
+    border: none;
+}

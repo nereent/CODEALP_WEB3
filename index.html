@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Edu+VIC+WA+NT+Beginner:wght@400..700&family=Kalam:wght@300;400;700&family=Lora:ital,wght@0,400..700;1,400..700&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1>Calculator App</h1>
+        <div class="container">
+            <br>
+            <table>
+                <tr>
+                    <td colspan="3"><input type='text' id='result' class='screen' ></td>
+                    <td>
+                        <input type='button' value='C' onclick="clearScreen()" class="clear" />
+                    </td>
+                </tr>
+            </table>
+            <div class="keys">
+                <input type="button" value="7" class="button" onClick="display('7')"></input>
+                <input type="button" value="8" class="button " onClick="display('8')"></input>
+                <input type="button" value="9" class="button" onClick="display('9')"></input>
+                <input type="button" value="/" class="operator" onClick="display('/')"></input>
+                <input type="button" value="4" class="button" onClick="display('4')"></input>
+                <input type="button" value="5" class="button" onClick="display('5')"></input>
+                <input type="button" value="6" class="button" onClick="display('6')"></input>
+                <input type="button" value="*" class="operator" onClick="display('*')"></input>
+                <input type="button" value="1" class="button" onClick="display('1')"></input>
+                <input type="button" value="2" class="button" onClick="display('2')"></input>
+                <input type="button" value="3" class="button" onClick="display('3')"></input>
+                <input type="button" value="-" class="operator" onClick="display('-')"></input>
+                <input type="button" value="0" class="button" onClick="display('0')"></input>
+                <input type="button" value="." class="button" onClick="display('.')"></input>
+                <input type="button" value="=" class="button equal-sign" onClick="solve()"></input>
+                <input type="button" value="+" class="operator" onClick="display('+')"></input>
+            </div>
+        </div>
+
+        <script  src="script.js"></script>
+</body>
+
+</html>
